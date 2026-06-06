@@ -1,6 +1,6 @@
 # Enterprise Frontend Architecture Specification
 
-**Project:** DelaFile Gateway & User Registration System Overhaul
+**Project:** Delaware UI revmap http://de.iteksolutions.com:44607/Login2.aspx
 
 **Target Architecture:** 3-Layer Decoupled Frontend Pattern
 
