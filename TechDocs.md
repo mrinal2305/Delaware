@@ -34,13 +34,13 @@ The application isolates network transport, state mutations, data invariants, an
                                        ▲
                                        │ HTTP Request / Response (JSON)
                                        ▼
- ┌─────────────────────────────────────────────────────────────────────────────────┐
- │ LAYER 3: ASYNCHRONOUS DATA ACCESS LAYER                                         │
- │                                                                                 │
+ ┌──────────────────────────────────────────────────────────────────────────────────┐
+ │ LAYER 3: ASYNCHRONOUS DATA ACCESS LAYER                                          │
+ │                                                                                  │
  │  • Axios client abstractions with token lifecycle rotation interceptors.         │
- │  • Declarative caching models via TanStack Query (`useQuery` / `useMutation`).  │
+ │  • Declarative caching models via TanStack Query (`useQuery` / `useMutation`).   │
  │  • Mapping incoming backend anomalies into strict Frontend Data Transfer Objects.│
- └──────────────────────────────────────┬──────────────────────────────────────────┘
+ └──────────────────────────────────────┬───────────────────────────────────────────┘
                                         │
                                         │ Pure JavaScript Typed Objects / DTOs
                                         ▼
@@ -54,14 +54,14 @@ The application isolates network transport, state mutations, data invariants, an
                                         │
                                         │ Handled Form State Context Strings
                                         ▼
- ┌─────────────────────────────────────────────────────────────────────────────────┐
- │ LAYER 1: DETERMINISTIC PRESENTATION LAYER (WCAG 2.2 AA COMPLIANT)               │
- │                                                                                 │
- │  • Isolated design atoms tested via Storybook (`<Button>`, `<Input>`).          │
- │  • Utility layout definitions using utility-first atomic Tailwind values.       │
- │  • Explicit ARIA states (`aria-invalid`, `aria-describedby`) bound to Zod paths.│
+ ┌───────────────────────────────────────────────────────────────────────────────────┐
+ │ LAYER 1: DETERMINISTIC PRESENTATION LAYER (WCAG 2.2 AA COMPLIANT)                 │
+ │                                                                                   │
+ │  • Isolated design atoms tested via Storybook (`<Button>`, `<Input>`).            │
+ │  • Utility layout definitions using utility-first atomic Tailwind values.         │
+ │  • Explicit ARIA states (`aria-invalid`, `aria-describedby`) bound to Zod paths.  │
  │  • Standardized native focus tracking for full keyboard accessibility workflows.  │
- └─────────────────────────────────────────────────────────────────────────────────┘
+ └───────────────────────────────────────────────────────────────────────────────────┘
 
 ```
 
